@@ -18,7 +18,7 @@ const db = mysql.createPool({
     database: "lakodatabase",
 });
 app.use(cors({
-    origin: ["http://localhost:3000", "https://lakoph.online/"],
+    origin: ["http://localhost:3000", "https://lakoph.online/", "https://lakoapp.online/", "https://lakofronttest.onrender.com/"],
     credentials: true
 }));
 
